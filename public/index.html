@@ -1,1 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Online Course Management</h1>
+
+    <form id="courseForm">
+        <h2>Create Course</h2>
+        <input type="text" id="courseTitle" placeholder="Title" required>
+        <textarea id="courseDescription" placeholder="Description" required></textarea>
+        <input type="text" id="courseDuration" placeholder="Duration" required>
+        <button type="submit">Add Course</button>
+    </form>
+
+    <div id="coursesList">
+        <h2>Courses</h2>
+        <ul id="courses"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
 
